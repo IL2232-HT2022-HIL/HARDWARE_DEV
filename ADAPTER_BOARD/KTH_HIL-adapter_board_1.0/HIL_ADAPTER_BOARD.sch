@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:KTH_HIL-adapter_board_1.0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "KTH_HIL-adapter_board_1.0"
-Date "2022-10-14"
+Title "HIL_ADAPTER_BOARD_V1"
+Date "2022-10-18"
 Rev "1.0"
 Comp "PART OF THE KTH IL2232 PROJECT COURSE 2022:  HIL"
 Comment1 "CONTACT: HOLGER.98@HOTMAIL.COM"
@@ -18,7 +17,7 @@ $Comp
 L Connector_Generic:Conn_02x20_Odd_Even CN7
 U 1 1 632D2306
 P 9575 2450
-F 0 "CN7" H 9625 3450 50  0000 C CNN
+F 0 "CN7" H 9625 3475 50  0000 C CNN
 F 1 "Conn_02x20_Odd_Even" H 9625 3476 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9575 2450 50  0001 C CNN
 F 3 "~" H 9575 2450 50  0001 C CNN
@@ -596,9 +595,9 @@ Wire Wire Line
 	6850 5750 7725 5750
 Wire Wire Line
 	6850 5850 7725 5850
-Text Notes 900  3300 2    50   ~ 0
+Text Notes 925  3300 2    50   ~ 0
 <-
-Text Notes 900  3375 2    50   ~ 0
+Text Notes 925  3400 2    50   ~ 0
 ->
 $Comp
 L power:GND #PWR0111
@@ -1460,4 +1459,6 @@ Wire Notes Line
 	6425 5750 5725 5750
 Wire Notes Line
 	6425 5850 5700 5850
+Text Notes 925  4325 2    50   ~ 0
+->
 $EndSCHEMATC

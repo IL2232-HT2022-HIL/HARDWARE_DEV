@@ -1,12 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:KTH_HIL-adapter_board_1.0-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "KTH_HIL-adapter_board_1.0"
-Date "2022-10-14"
+Title "HIL_ADAPTER_BOARD_V1"
+Date "2022-10-18"
 Rev "1.0"
 Comp "PART OF THE KTH IL2232 PROJECT COURSE 2022:  HIL"
 Comment1 "CONTACT: HOLGER.98@HOTMAIL.COM"
