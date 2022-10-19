@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:HIL_ADAPTER_BOARD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -739,16 +738,12 @@ Wire Wire Line
 	950  5700 1825 5700
 Text Notes 800  5725 0    50   ~ 0
 ->
-Text Notes 1500 5700 0    50   ~ 0
-(SPI1)
 Text Label 950  2775 0    50   ~ 0
 HiL_595_DS
 Wire Wire Line
 	950  2775 1825 2775
 Text Notes 800  2800 0    50   ~ 0
 ->
-Text Notes 1400 2775 0    50   ~ 0
-(SPI1)
 Text Label 3200 1875 2    50   ~ 0
 HiL_USR_LED1
 Wire Wire Line
@@ -801,14 +796,10 @@ Text Label 3200 5400 2    50   ~ 0
 HiL_SW6
 Wire Wire Line
 	3200 5400 2325 5400
-Text Notes 3225 5425 0    50   ~ 0
-<-
 Text Label 3200 5500 2    50   ~ 0
 HiL_SW8
 Wire Wire Line
 	3200 5500 2325 5500
-Text Notes 3225 5525 0    50   ~ 0
-<-
 Text Label 950  6600 0    50   ~ 0
 HiL_Disp_CS
 Wire Wire Line
@@ -977,10 +968,6 @@ Wire Wire Line
 	950  5800 1825 5800
 Wire Wire Line
 	1825 5600 950  5600
-Text Notes 925  5825 2    50   ~ 0
-->
-Text Notes 925  5625 2    50   ~ 0
-->
 Text Label 3200 5200 2    50   ~ 0
 HiL_SPI3_MOSI
 Text Notes 3225 5225 0    50   ~ 0
@@ -1006,14 +993,10 @@ Text Notes 3225 2200 0    50   ~ 0
 <-
 Wire Wire Line
 	950  5500 1825 5500
-Text Notes 800  5525 0    50   ~ 0
-->
 Text Label 950  5500 0    50   ~ 0
 HiL_SW7
 Wire Wire Line
 	950  5400 1825 5400
-Text Notes 800  5425 0    50   ~ 0
-->
 Text Label 950  5400 0    50   ~ 0
 HiL_SW5
 Text Notes 800  1100 0    50   ~ 0
@@ -1463,4 +1446,16 @@ NoConn ~ 1825 1975
 NoConn ~ 1825 2075
 NoConn ~ 1825 2375
 NoConn ~ -2500 5250
+Text Notes 800  5425 0    50   ~ 0
+<-
+Text Notes 800  5525 0    50   ~ 0
+<-
+Text Notes 3225 5425 0    50   ~ 0
+->
+Text Notes 3225 5525 0    50   ~ 0
+->
+Text Notes 800  5625 0    50   ~ 0
+<-
+Text Notes 800  5825 0    50   ~ 0
+<-
 $EndSCHEMATC
