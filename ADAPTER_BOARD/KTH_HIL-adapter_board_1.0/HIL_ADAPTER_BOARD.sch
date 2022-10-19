@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:HIL_ADAPTER_BOARD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -748,10 +749,10 @@ Text Notes 800  2800 0    50   ~ 0
 ->
 Text Notes 1400 2775 0    50   ~ 0
 (SPI1)
-Text Label 950  1975 0    50   ~ 0
+Text Label 950  2375 0    50   ~ 0
 HiL_595_Enable
 Wire Wire Line
-	950  1975 1825 1975
+	950  2375 1825 2375
 Text Label 3200 1875 2    50   ~ 0
 HiL_USR_LED1
 Wire Wire Line
@@ -997,16 +998,14 @@ NoConn ~ 1825 6200
 NoConn ~ 1825 6700
 Text Notes 800  600  0    50   ~ 0
 ->
-Text Notes 800  2100 0    50   ~ 0
-->
 Wire Wire Line
-	1825 2075 950  2075
-Text Label 950  2075 0    50   ~ 0
+	2325 2375 3200 2375
+Text Label 3200 2375 2    50   ~ 0
 HiL_Disp_Reset
 NoConn ~ 1825 1575
 Text Notes 3225 1900 0    50   ~ 0
 <-
-Text Notes 800  2000 0    50   ~ 0
+Text Notes 800  2400 0    50   ~ 0
 ->
 Text Notes 800  2300 0    50   ~ 0
 ->
@@ -1046,8 +1045,6 @@ NoConn ~ 2325 4700
 NoConn ~ 2325 4800
 NoConn ~ 2325 2775
 NoConn ~ 2325 2475
-NoConn ~ 2325 2375
-NoConn ~ 1825 2375
 NoConn ~ 1825 1775
 NoConn ~ 1825 1675
 Text Notes 4075 1625 0    50   ~ 0
@@ -1461,4 +1458,6 @@ Wire Notes Line
 	6425 5850 5700 5850
 Text Notes 925  4325 2    50   ~ 0
 ->
+Text Notes 3225 2400 0    50   ~ 0
+<-
 $EndSCHEMATC
