@@ -1462,4 +1462,5 @@ Text Notes 3225 6725 0    50   ~ 0
 NoConn ~ 1825 1975
 NoConn ~ 1825 2075
 NoConn ~ 1825 2375
+NoConn ~ -2500 5250
 $EndSCHEMATC
