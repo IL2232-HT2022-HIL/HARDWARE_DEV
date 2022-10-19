@@ -749,10 +749,6 @@ Text Notes 800  2800 0    50   ~ 0
 ->
 Text Notes 1400 2775 0    50   ~ 0
 (SPI1)
-Text Label 950  2375 0    50   ~ 0
-HiL_595_Enable
-Wire Wire Line
-	950  2375 1825 2375
 Text Label 3200 1875 2    50   ~ 0
 HiL_USR_LED1
 Wire Wire Line
@@ -880,7 +876,6 @@ NoConn ~ 2325 6200
 NoConn ~ 2325 6400
 NoConn ~ 2325 6500
 NoConn ~ 2325 6600
-NoConn ~ 2325 6700
 NoConn ~ 1825 6400
 NoConn ~ 1825 6500
 NoConn ~ 1825 6800
@@ -1005,8 +1000,6 @@ HiL_Disp_Reset
 NoConn ~ 1825 1575
 Text Notes 3225 1900 0    50   ~ 0
 <-
-Text Notes 800  2400 0    50   ~ 0
-->
 Text Notes 800  2300 0    50   ~ 0
 ->
 Text Notes 3225 2200 0    50   ~ 0
@@ -1460,4 +1453,13 @@ Text Notes 925  4325 2    50   ~ 0
 ->
 Text Notes 3225 2400 0    50   ~ 0
 <-
+Text Label 3200 6700 2    50   ~ 0
+HiL_595_Enable
+Wire Wire Line
+	3200 6700 2325 6700
+Text Notes 3225 6725 0    50   ~ 0
+<-
+NoConn ~ 1825 1975
+NoConn ~ 1825 2075
+NoConn ~ 1825 2375
 $EndSCHEMATC
